@@ -7,10 +7,10 @@
 
 <!-- versionCode is optional and Android only -->
 
-  <name>Wifi teploměr</name>
+  <name>Wifi plugin test</name>
 
   <description>
-    Wifi teploměr
+    Wifi plugin test
   </description>
 
   <author href="http://www.brrr.cz" email="zdenek.macura@email.cz">

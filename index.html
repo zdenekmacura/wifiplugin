@@ -18,9 +18,9 @@
 <body>
 
 <button onclick="getCurrentSSID()">Get Current SSID</button> 
-    <button onclick="getWifiList()">Get configured SSID list</button> 
-    <button onclick="getScanResult()">Get Scan result</button> 
-    <button id="pickContact" class="Buttons"> Vyber vytýkanou osobu z adresáře</button>
+<button onclick="getWifiList()">Get configured SSID list</button> 
+<button onclick="getScanResult()">Get Scan result</button> 
+<button id="pickContact" class="Buttons"> Vyber vytýkanou osobu z adresáře</button>
 <div id="selectedContact"></div>
 <input id="phonenumber" type="hidden"></input>
 <button id="generateReproof" class="Buttons"> Vygeneruj znění výtky</button>
@@ -38,7 +38,7 @@
     <script src="WifiWizard.js"></script>
     <script type="text/javascript">
         //app.initialize();
-        /*function ssidHandler(s){
+        function ssidHandler(s){
             alert("Current SSID"+s);
         }
         function fail(e){
@@ -47,7 +47,7 @@
         function getCurrentSSID(){
 
         WifiWizard.getCurrentSSID(ssidHandler, fail);
-        }*/
+        }
     </script>
 
 

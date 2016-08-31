@@ -17,12 +17,13 @@
  * under the License.
  */
 
-function init() {   
-    document.querySelector("#pickContact").addEventListener("touchend", doContactPicker, false);
-    
-}
+$("#pickContact").click(function() {
+    alert("dcsd");
+    doContactPicker();
+});
 
 function doContactPicker() {
+    alert("dcsdffffffffffffff");
     navigator.contacts.pickContact(function(contact){
         console.log('The following contact has been selected:' + JSON.stringify(contact));
         var s = "Vybraná vytýkaná osoba:";

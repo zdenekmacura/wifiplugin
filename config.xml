@@ -18,9 +18,9 @@
   </author>
   <content src="index.html" />
   <!--<gap:plugin name="cordova-plugin-whitelist" spec="1.1.0" />-->
-  <gap:plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
-  <gap:plugin name="com.pylonproducts.wifiwizard" spec="0.1.0" source="pgb" />
-  <gap:plugin name="cordova-plugin-contacts" source="npm" spec="~2.0.1" />
+  <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+  <plugin name="com.pylonproducts.wifiwizard" spec="0.2.10" />
+  <plugin name="cordova-plugin-contacts" source="npm" spec="~2.0.1" />
 
   <access origin="*" />
   <allow-navigation href="http://*/*" />

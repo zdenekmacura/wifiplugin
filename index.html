@@ -39,14 +39,15 @@
     <script type="text/javascript">
         //app.initialize();
         function ssidHandler(s){
-            alert("Current SSID"+s);
+            alert("Current SSID: "+s);
         }
         function fail(e){
-            alert("Failed"+e);
+            alert("Failed: "+e);
         }
         function getCurrentSSID(){
-
+            alert("before get");
         WifiWizard.getCurrentSSID(ssidHandler, fail);
+        alert("after get");
         }
     </script>
 
